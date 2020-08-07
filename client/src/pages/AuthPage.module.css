@@ -1,0 +1,12 @@
+button {
+    margin-right: 10px;
+    box-shadow: 1px 2px 3px black;
+}
+h1 {
+    text-align: center;
+    text-shadow: 1px 2px 3px black;
+
+}
+div{
+    margin:10px;
+}
