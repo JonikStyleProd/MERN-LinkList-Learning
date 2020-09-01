@@ -3,6 +3,7 @@ import './AuthPage.module.css';
 import { useHttp } from '../hooks/http.hook';
 import { useMessage } from '../hooks/message.hook';
 import {AuthContext} from "../context/AuthContext";
+import {Navbar} from "../components/NavBar/Navbar";
 
 
 export const AuthPage = ()=> {
@@ -47,6 +48,7 @@ export const AuthPage = ()=> {
 
   return (
     <div className="row">
+        <Navbar />
       <div className="card #00897b teal darken-1 white-text">
         <h1>Welcome to TyDiet</h1>
         <div className="card-content white-text">

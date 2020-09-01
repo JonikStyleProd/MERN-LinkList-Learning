@@ -15,7 +15,7 @@ app.use('/api/auth', require('./routes/auth.routes'))
 app.use('/api/link', require('./routes/link.routes'))
 app.use('/t', require('./routes/redirect.routes'))
 
-//this if for working together Frontend and Backend = in Node.js on server
+//this if for working together Frontend and Backend = in Node.js on server0
 if (process.env.NODE_ENV === 'production'){
     app.use('/',express.static(path.json(__dirname, 'client' , 'build')))
 

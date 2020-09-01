@@ -7,7 +7,7 @@ export const LinksList = ({ links }) => {
             <div>
             <p className="center flow-text">You dont have Links</p>
                 <div className="right">
-                    <Link className="btn-floating btn-large #00897b teal darken-1 pulse"><i className="material-icons ">create</i></Link>
+                    <Link to="/create" className="btn-floating btn-large #00897b teal darken-1 pulse"><i className="material-icons ">create</i></Link>
                 </div>
             </div>
         )
@@ -45,7 +45,7 @@ export const LinksList = ({ links }) => {
             </table>
         </div>
             <div className="right">
-                <Link className="btn-floating btn-large #00897b teal darken-1 pulse"><i className="material-icons ">create</i></Link>
+                <Link to="/create" className="btn-floating btn-large #00897b teal darken-1 pulse"><i className="material-icons ">create</i></Link>
             </div>
         </div>
     )
